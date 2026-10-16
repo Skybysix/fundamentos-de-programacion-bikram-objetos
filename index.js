@@ -115,3 +115,16 @@ Impresora.imprimiendo = {
     numPaginas: 20
 };
 console.log(Impresora);
+//13
+
+const Noticia = {
+    Titular: "Hombre descarrila",
+    Cuerpo:"Hombre borracho descarrila tras afterhour intenso"
+}
+
+//14
+const Persona = {
+    Nombre: "Carmen",
+    Apellidos: "Guiral Barberá",
+    Edad: 23
+}
