@@ -15,8 +15,8 @@ const Casa = {
 
 //3
 const FullStackDeveloper = {
-    arrayLenguajes:,
-    arrayProyectos:
+    arrayLenguajes: []
+    arrayProyectos: []
 }
 
 const FullStackDeveloper = {
