@@ -75,3 +75,43 @@ const Led = {
 }
 const RGB = [Led.red, Led.green, Led.blue];
 console.log(RGB);
+
+//9
+const Portatil = {
+    modelo: "Asus intel 8 234"
+}
+Portatil.modelo = "345"
+console.log (Portatil);
+
+//10
+const Concierto = {
+    NúmeroEntradas: 300,
+    Cartelera: [
+        "Green Day",
+        "Bring me the Horizon",
+        "Twenty One Pilots"
+    ]
+}
+Concierto.Cartelera.push ("Guns N Roses");
+console.log (Concierto);
+
+//11
+const Concierto = {
+    Date: new Date(2026, 12, 17)
+};
+console.log(Concierto);
+
+Concierto.Date = new Date(2026, 9, 16);
+
+console.log(Concierto);
+
+//12
+const Impresora = {
+    imprimiendo: false
+};
+Impresora.imprimiendo = {
+    nombreArchivo: "documento.pdf",
+    copias: 3,
+    numPaginas: 20
+};
+console.log(Impresora);
