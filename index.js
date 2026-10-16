@@ -128,3 +128,43 @@ const Persona = {
     Apellidos: "Guiral Barberá",
     Edad: 23
 }
+
+//15
+const Avion = {
+    numPasajeros: 40,
+    Despegar: function (){
+        return "Despegando..."
+    },
+    Volar: function (){
+        return "Llegando al destino..."
+    }, 
+    Aterrizar: function(){
+        return "Aterrizando..."
+    }
+}
+console.log (Avion.Despegar());
+console.log (Avion.Volar());
+console.log (Avion.Aterrizar());
+
+//16
+const Paquete = {
+    Array: [
+        "ID"
+        "Dirección"
+        "Numero de Entrega"
+    ]
+}
+
+//17
+const Pais = {
+    Num habitantes: "1670000",
+    Continente: "Asia",
+    Gentilicio: "Asiaticos"
+}
+
+//18
+const O_Error = {
+    Codigo: 404
+}
+const codError = O_Error.Codigo;
+console.log(codError);
