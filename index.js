@@ -9,8 +9,8 @@ const Coche = {
 const Casa = {
     codPostal: 46025,
     calle: "Elarte de la Juana",
-    portal:17 ,
-    piso: 2 
+    portal: 17,
+    piso: 2
 }
 
 //3
@@ -31,17 +31,17 @@ const Perro = {
     color: "Moteado",
     edad: 7,
 
-    ladrar: function (){
+    ladrar: function () {
         return "Wof wof";
     },
-    popo:function (){
-        return Math.random() *3;
+    popo: function () {
+        return Math.random() * 3;
     }
 };
-console.log (Perro.ladrar ());
-        ///OTRA FORMA DE LLAMAR FUNCION
-Perro.ladrar ();
-Perro.popo ();
+console.log(Perro.ladrar());
+///OTRA FORMA DE LLAMAR FUNCION
+Perro.ladrar();
+Perro.popo();
 
 //5
 const Portatil = {
@@ -49,13 +49,15 @@ const Portatil = {
     peso: 28
 };
 const marcaPortatil = Portatil.marca;
-console.log (marcaPortatil);
+console.log(marcaPortatil);
+
 //6
 const Portatil2 = {
     marca: "HP"
 }
 const marcaPortatil2 = Portatil2.marca;
 console.log(marcaPortatil2);
+
 //7
 const Concierto = {
     grupos: [
@@ -67,6 +69,7 @@ const Concierto = {
 const grupos = Concierto.grupos;
 
 console.log(grupos);
+
 //8
 const Led = {
     red: 10,
@@ -81,7 +84,7 @@ const Portatil = {
     modelo: "Asus intel 8 234"
 }
 Portatil.modelo = "345"
-console.log (Portatil);
+console.log(Portatil);
 
 //10
 const Concierto = {
@@ -92,8 +95,8 @@ const Concierto = {
         "Twenty One Pilots"
     ]
 }
-Concierto.Cartelera.push ("Guns N Roses");
-console.log (Concierto);
+Concierto.Cartelera.push("Guns N Roses");
+console.log(Concierto);
 
 //11
 const Concierto = {
@@ -119,7 +122,7 @@ console.log(Impresora);
 
 const Noticia = {
     Titular: "Hombre descarrila",
-    Cuerpo:"Hombre borracho descarrila tras afterhour intenso"
+    Cuerpo: "Hombre borracho descarrila tras afterhour intenso"
 }
 
 //14
@@ -132,19 +135,19 @@ const Persona = {
 //15
 const Avion = {
     numPasajeros: 40,
-    Despegar: function (){
+    Despegar: function () {
         return "Despegando..."
     },
-    Volar: function (){
+    Volar: function () {
         return "Llegando al destino..."
-    }, 
-    Aterrizar: function(){
+    },
+    Aterrizar: function () {
         return "Aterrizando..."
     }
 }
-console.log (Avion.Despegar());
-console.log (Avion.Volar());
-console.log (Avion.Aterrizar());
+console.log(Avion.Despegar());
+console.log(Avion.Volar());
+console.log(Avion.Aterrizar());
 
 //16
 const Paquete = {
@@ -168,3 +171,77 @@ const O_Error = {
 }
 const codError = O_Error.Codigo;
 console.log(codError);
+
+//19
+const Grupo = {
+    Día: 16,
+    Mes: "Abril",
+    Año: 2023,
+    Integrantes: ["Pablo", "Juana", "David"]
+}
+const Integrantes = Grupo.Integrantes;
+console.log (Integrantes);
+
+//20
+const Impresora = {
+    tinta: {
+        rojo: 40,
+        verde: 60,
+        azul: 20
+    }
+};
+const nivelesTinta = Impresora.tinta;
+console.log(nivelesTinta);
+
+//21
+const Pantalla {
+    pixeles: [
+        [1,5,4],
+        [3,7,8]
+    ]
+}
+const pixeles = Pantalla.pixeles;
+console.log (pixeles);
+
+//22
+const Movil = {
+    Marca: "Hwei",
+    Especificaciones: "Modelo 3",
+    Batería: "3%"
+}
+const especificaciones = Movil.Especificaciones;
+console.log (Movil ["Especificaciones"]);
+
+//23
+const Grupo = {
+    Tipo: "Juegos de rol",
+    numIntegrantes: 6
+}
+Grupo.numIntegrantes = 5;
+console.log (numIntegrantes);
+
+//24
+const Pantalla = {
+    Tipo: "OLED",
+    Dimensiones: "1890x1900"
+}
+Pantalla.Dimensiones = "1920x1080";
+console.log (Pantalla.Dimensiones);
+
+//25
+const Led = {
+    encendido: true
+};
+
+Led.encendido = !Led.encendido;
+
+console.log(Led.encendido); 
+
+//26
+const Movil = {
+    Marca: "Oppo",
+    temperatura: "15º"
+}
+
+Movil.temperatura = "20º";
+console.log (Movil.temperatura);
